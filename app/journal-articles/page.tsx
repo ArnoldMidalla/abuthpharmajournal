@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const articlesData = [
   {
     id: 1,
@@ -90,7 +92,7 @@ const JournalArticles = () => {
       <div className="bg-muted/50 py-4">
         <div className="container mx-auto px-4">
           <nav className="text-sm text-muted-foreground">
-            <a href="/" className="text-primary hover:text-primary/80">Home</a>
+            <Link href="/" className="text-primary hover:text-primary/80">Home</Link>
             <span className="mx-2">/</span>
             <span>Journal Articles</span>
           </nav>
@@ -132,9 +134,9 @@ const JournalArticles = () => {
                       <em>{article.journal}</em> <strong>{article.volume}</strong>, {article.issue}, {article.pages}.
                       {article.hasPdf && (
                         <span className="ml-2">
-                          <a href="#" className="text-primary hover:text-primary/80 font-medium">
+                          <Link href="#" className="text-primary hover:text-primary/80 font-medium">
                             📄 PDF
-                          </a>
+                          </Link>
                         </span>
                       )}
                     </p>

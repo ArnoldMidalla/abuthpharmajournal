@@ -29,16 +29,16 @@ export default function Header() {
             Published Articles
           </Link>
           <Link
-            href="#"
+            href="/blog"
             className="text-foreground hover:text-primary transition-colors"
           >
             Blog
           </Link>
           <Link
-            href="#"
+            href="/author-guidelines"
             className="text-foreground hover:text-primary transition-colors"
           >
-            For Subscribers
+            Author Guidelines
           </Link>
           <Link
             href="#"
@@ -53,10 +53,6 @@ export default function Header() {
             FAQ
           </Link>
         </nav>
-
-        <Button variant="outline" className="hidden md:block">
-          Login
-        </Button>
       </div>
     </header>
   );

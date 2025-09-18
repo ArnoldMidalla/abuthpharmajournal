@@ -24,7 +24,7 @@ const AboutSection = () => {
                 research across all subjects. We believe in the power of
                 collaboration and open knowledge to drive innovation, enabling
                 researchers, academics, clinicians, and science enthusiasts to
-                embark on a mission to make science open. Since 2020, we've been
+                embark on a mission to make science open. Since 2020, we have been
                 working to keep science open, helping thousands of research
                 discoveries to reach new heights and potentially save lives and
                 build communities.

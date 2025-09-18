@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -9,48 +10,48 @@ export default function Header() {
         </div>
 
         <nav className="hidden md:flex items-center space-x-6">
-          <a
+          <Link
             href="/"
             className="text-foreground hover:text-primary transition-colors"
           >
             Home
-          </a>
-          <a
-            href="/about"
+          </Link>
+          <Link
+            href="/Linkbout"
             className="text-foreground hover:text-primary transition-colors"
           >
             Journal Topics
-          </a>
-          <a
+          </Link>
+          <Link
             href="/journal-articles"
             className="text-foreground hover:text-primary transition-colors"
           >
             Published Articles
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-foreground hover:text-primary transition-colors"
           >
             Blog
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-foreground hover:text-primary transition-colors"
           >
             For Subscribers
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-foreground hover:text-primary transition-colors"
           >
             Contact
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-foreground hover:text-primary transition-colors"
           >
             FAQ
-          </a>
+          </Link>
         </nav>
 
         <Button variant="outline" className="hidden md:block">

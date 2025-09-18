@@ -30,7 +30,7 @@ export default function Home() {
           ABUTH Pharma Journal
         </h1>
         <p className="text-lg opacity-90 leading-relaxed max-w-md">
-          ABUTH Pharma Journal, Improving Pharmacists' Education and
+          ABUTH Pharma Journal, Improving Pharmacists Education and
           Research Toward Enhancing Patient Treatment Outcomes.
         </p>
         <Button

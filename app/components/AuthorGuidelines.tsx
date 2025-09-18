@@ -7,7 +7,6 @@ const AuthorGuidelines = () => {
       className="relative py-16 text-primary-foreground overflow-hidden"
       style={{
         backgroundImage: `url(${
-          // heroBg
           "/footer_bg.jpg"
         })`,
         backgroundSize: "cover",

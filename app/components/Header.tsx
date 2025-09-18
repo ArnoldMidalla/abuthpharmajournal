@@ -22,10 +22,10 @@ export default function Header() {
             Journal Topics
           </a>
           <a
-            href="#"
+            href="/journal-articles"
             className="text-foreground hover:text-primary transition-colors"
           >
-            Submit Article
+            Published Articles
           </a>
           <a
             href="#"

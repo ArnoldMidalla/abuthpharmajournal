@@ -1,14 +1,10 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-700 text-primary-foreground py-12">
+    <footer className="bg-gray-200 text-black py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              {/* <div className="w-8 h-8 bg-primary-foreground rounded flex items-center justify-center">
-                <span className="text-primary font-bold text-sm">A</span>
-              </div>
-              <span className="font-semibold">ABUTH Pharma Journal</span> */}
               
           <img src="/logo.png" alt="" className="h-14" />
             </div>
@@ -33,8 +29,8 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <div className="space-y-2 text-sm opacity-90">
-              <p><a href="#" className="hover:text-accent transition-colors">Home</a></p>
-              <p><a href="#" className="hover:text-accent transition-colors">About Us</a></p>
+              <p><a href="/" className="hover:text-accent transition-colors">Home</a></p>
+              <p><a href="/about" className="hover:text-accent transition-colors">About Us</a></p>
               <p><a href="#" className="hover:text-accent transition-colors">Privacy Policy</a></p>
               <p><a href="#" className="hover:text-accent transition-colors">Terms and Conditions</a></p>
             </div>

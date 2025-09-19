@@ -1,30 +1,12 @@
 import journalCover from "@/assets/journal-cover.jpg";
+import PageHeader from "../components/pageHeader";
 
 export default function About() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section
-        className="relative isolate py-16" // isolate creates a new stacking context
-        style={{
-          backgroundImage: `url("/about_page_bg.jpg")`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        {/* overlay behind */}
-        <div className="absolute inset-0 bg-black/10 -z-10"></div>
 
-        {/* content above overlay */}
-        <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold text-primary mb-4">ABOUT US</h1>
-          <nav className="text-sm text-muted-foreground">
-            <span>Home</span>
-            <span className="mx-2">/</span>
-            <span className="text-primary">About us</span>
-          </nav>
-        </div>
-      </section>
+<PageHeader title="About Us" imageUrl="about_page_bg.jpg"/>
 
       {/* Journal History Section */}
       <section className="py-16">

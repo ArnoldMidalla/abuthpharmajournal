@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import PageHeader from "../components/pageHeader";
 
 // Sample blog post data
 const blogPosts = [
@@ -41,12 +42,8 @@ const Blog = () => {
   return (
     <main className="bg-white">
       {/* Blog section title */}
-      <section className="bg-blue-900 bg-opacity-75 bg-cover bg-center" style={{ backgroundImage: "url('/path/to/your/background-image.jpg')" }}>
-        <div className="container mx-auto py-20 text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2">BLOG</h1>
-          <p className="text-lg">Home / Blog</p>
-        </div>
-      </section>
+      
+      <PageHeader title="Blog" imageUrl="articles_bg.jpg"/>
 
       {/* Blog posts grid */}
       <section className="container mx-auto py-16 px-4">

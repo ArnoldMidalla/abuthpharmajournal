@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export default function Header() {
+export default function Navbar() {
   return (
     <header className="bg-background border-b border-border px-4 py-3">
       <div className="container mx-auto flex items-center justify-between">
@@ -17,7 +17,7 @@ export default function Header() {
             Home
           </Link>
           <Link
-            href="/Linkbout"
+            href="/about"
             className="text-foreground hover:text-primary transition-colors"
           >
             Journal Topics
@@ -41,16 +41,10 @@ export default function Header() {
             Author Guidelines
           </Link>
           <Link
-            href="#"
+            href="/contact"
             className="text-foreground hover:text-primary transition-colors"
           >
             Contact
-          </Link>
-          <Link
-            href="#"
-            className="text-foreground hover:text-primary transition-colors"
-          >
-            FAQ
           </Link>
         </nav>
       </div>

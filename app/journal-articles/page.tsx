@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PageHeader from "../components/pageHeader";
 
 const articlesData = [
   {
@@ -67,37 +68,7 @@ const JournalArticles = () => {
   return (
     <div className="min-h-screen bg-background">      
       {/* Hero Section */}
-      <section className="relative isolate py-16 overflow-hidden">
-        {/* background image */}
-        <div
-          className="absolute inset-0 -z-20"
-          style={{
-            backgroundImage: `url('/articles_bg.jpg')`, // <-- replace with your actual hero bg image
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-        {/* gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-purple-700/70 to-blue-700/70 -z-10"></div>
-        
-        {/* content */}
-        <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            JOURNAL ARTICLES
-          </h1>
-        </div>
-      </section>
-
-      {/* Breadcrumb */}
-      <div className="bg-muted/50 py-4">
-        <div className="container mx-auto px-4">
-          <nav className="text-sm text-muted-foreground">
-            <Link href="/" className="text-primary hover:text-primary/80">Home</Link>
-            <span className="mx-2">/</span>
-            <span>Journal Articles</span>
-          </nav>
-        </div>
-      </div>
+      <PageHeader title="Journal Articles" imageUrl="articles_bg.jpg"/>
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">

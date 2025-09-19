@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import heroBg from "@/assets/hero-bg.jpg";
-import journalCover from "@/assets/journal-cover.jpg";
 import Articles from "./components/Articles";
 import AboutSection from "./components/About";
 import NewsSection from "./components/NewsSection";

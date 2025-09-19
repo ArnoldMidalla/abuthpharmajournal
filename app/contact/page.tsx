@@ -181,7 +181,7 @@ const Contact = () => {
                         required
                       />
                       <label htmlFor="recaptcha" className="text-sm text-gray-600">
-                        I'm not a robot
+                        I am not a robot
                       </label>
                     </div>
 

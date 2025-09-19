@@ -1,8 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import pharmacistsDay from "@/assets/pharmacists-day.jpg";
-import pharmacyEducation from "@/assets/pharmacy-education.jpg";
-import pharmacoeconomics from "@/assets/pharmacoeconomics.jpg";
 
 const newsItems = [
   {

@@ -58,12 +58,12 @@ const AuthorGuidelines = () => {
                 published articles. Equally, we seek to protect the reputation of the journal against malpractice. Submitted articles may be checked with duplication-
                 checking software. Where an article, for example, is found to have plagiarized other work or included third-party copyright material without permission or with 
                 insufficient acknowledgement, or where the authorship of the article is contested, we reserve the right to take action including, but not limited to: publishing an 
-                erratum or corrigendum (correction); retracting the article; taking up the matter with the head of department or dean of the author's institution and/or relevant 
+                erratum or corrigendum (correction); retracting the article; taking up the matter with the head of department or dean of the authors institution and/or relevant 
                 academic bodies or societies; banning the author from submission to the journal or all journals for a period; taking appropriate legal action.
               </p>
               
               <p className="mb-6 leading-relaxed">
-                All the Pharma Journal's editorial board members should avoid any actual or potential conflict of interest relating to the content; when in 
+                All the Pharma Journals editorial board members should avoid any actual or potential conflict of interest relating to the content; when in 
                 doubt they should declare it:
               </p>
 

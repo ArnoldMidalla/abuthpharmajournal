@@ -51,7 +51,7 @@ const Footer = () => {
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
           <p className="text-sm opacity-75">
-            Copyright 2024 ABUTH Our Journal - Designed and Developed by Ghana Science
+            Copyright 2025 ABUTH Our Journal - Designed and Developed by Joshua Adams*
           </p>
         </div>
       </div>

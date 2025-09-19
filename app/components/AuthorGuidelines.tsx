@@ -14,7 +14,7 @@ const AuthorGuidelines = () => {
       }}
     >
       {/* gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary/80 z-0" />
+      <div className="absolute inset-0 bg-primary/30 z-0" />
 
       {/* content above overlay */}
       <div className="relative z-10 container mx-auto px-4">

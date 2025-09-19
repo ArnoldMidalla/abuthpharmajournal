@@ -41,20 +41,20 @@ const NewsSection = () => {
         
         <div className="grid md:grid-cols-3 gap-8">
           {newsItems.map((item) => (
-            <Card key={item.id} className="group hover:shadow-lg transition-shadow duration-300">
-              <CardHeader className="p-0">
-                <div className="aspect-video overflow-hidden rounded-t-lg">
+            <div key={item.id} className="group hover:shadow-lg transition-shadow duration-300 overflow-hidden border shadow rounded-lg">
+              <div className="p-0">
+                <div className="aspect-video overflow-hidden">
                   <img 
                     src={item.image}
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-              </CardHeader>
-              <CardContent className="p-6">
-                <CardTitle className="text-lg mb-3 leading-tight">
+              </div>
+              <div className="p-6">
+                <h1 className="text-lg mb-3 leading-tight font-semibold">
                   {item.title}
-                </CardTitle>
+                </h1>
                 <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                   {item.description}
                 </p>
@@ -64,8 +64,8 @@ const NewsSection = () => {
                 >
                   {item.readTime}
                 </Button>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
           ))}
         </div>
         

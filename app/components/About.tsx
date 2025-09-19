@@ -46,7 +46,7 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
-          <div className="w-150 h-120">
+          <div className="w-150 h-120 rounded-xl overflow-hidden">
             <img
               src="280715085_1585598335167989_1248323062407491675_n.jpg"
               alt=""
